@@ -1,0 +1,166 @@
+@import "bourbon";
+
+@import "_fonts";
+
+@mixin calc($property, $expression) { 
+	#{$property}: -moz-calc(#{$expression}); 
+	#{$property}: -webkit-calc(#{$expression}); 
+	#{$property}: calc(#{$expression}); 
+}
+
+$blue: #0054a6;
+$light_grey: #f6f6f6;
+$dark_grey: #8d8f91;
+
+body {
+	-webkit-text-size-adjust:none;
+	-webkit-text-size-adjust:100%;
+	font-family: 'LektonRegular', monospace;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	&:visited {
+		color: $dark_grey;
+	}
+	&:hover {
+		color: $blue;
+	}
+}
+
+strong {
+	font-weight: normal;
+	font-family: 'LektonBold', monospace;
+}
+
+em {
+	font-family: 'LektonItalic', monospace;
+	font-style: normal;
+}
+
+small {
+	font-size: .875em;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.wrap {
+	@include box-sizing(border-box);
+	padding: 0 1em;
+	margin: 0 auto;
+	max-width: 80em;
+	@media(min-width: 40em) {
+		padding: 0 2em;
+	}
+}
+
+.top {
+	background: $light_grey;
+	margin: 0 0 1em 0;
+	@media(min-width: 48em) {
+		margin: 3em 0 2.5em 0;
+	}
+}
+
+.header {
+	display: inline-block;
+	padding: 2.5em 0 2em 0;
+}
+
+.header--logo {
+	@extend strong;
+	font-size: 1.4375em;
+	text-decoration: none;
+}
+
+.header--logo--1 {
+	color: $blue;
+	display: block;
+	margin-bottom: .6957em;
+	@media(min-width: 30em) {
+		display: inline;
+	}
+}
+
+.header--logo--2 {
+	color: black;
+}
+
+.header--logo--3 {
+	color: $dark_grey;
+}
+
+.header--subtitle {
+	max-width: 17.5em;
+	font-size: 1.125em;
+	line-height: 1.7778;
+	margin-top: 1.333em;
+}
+
+.header--contact, .header--links {
+	margin-top: 1.5em;
+}
+
+.header--contact {
+	@media(max-width: 25em) {
+		line-height: 2;
+	}
+}
+
+.nav {
+	display: none;
+	padding-top: .6429em;
+	float: right;
+	text-align: right;
+	font-size: .875em;
+	line-height: 2.5714;
+	ul {
+		list-style: none;
+	}
+	@media(min-width: 48em) {
+		display: block;
+	}
+}
+
+.project {
+	padding-top: .5em;
+	@media(min-width: 48em) {
+		padding-top: 2em;
+		margin-bottom: 1.5em;
+	}
+}
+
+.project h2 {
+	@extend strong;
+	font-size: 1.125em;
+}
+
+.project p {
+	max-width: 40em;
+	line-height: 2;
+}
+
+.project img {
+	width: inherit;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 1em;
+}
+
+.project--brief {
+	display: block;
+	margin-bottom: .5em;
+}
+
+.project--links {
+	display: block;
+	margin-top: .5em;
+}
+
+.footer {
+	margin: 3em 0 1.5em 0;
+	line-height: 1.5;
+}
