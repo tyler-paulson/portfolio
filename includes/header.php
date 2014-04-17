@@ -17,7 +17,7 @@
 	<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
 	<!--[if !IE]><!--><link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"><!-- <![endif]-->
 
-	<link rel="stylesheet" href="/css/global.11.css">
+	<link rel="stylesheet" href="/css/global.1.css">
 
 	<!--[if lt IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
@@ -28,7 +28,7 @@
 	<![endif]-->
 
 	<!--[if !IE]> -->
-		<script async src="/js/body.ck.11.js"></script>
+		<script async src="/js/body.ck.2.js"></script>
 	<!-- <![endif]-->
 
 </head>

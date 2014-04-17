@@ -26,7 +26,7 @@ $(document).on('ready', function() {
 			var id = locator[locator.length -1];
 			var url = '/project/'+id;
 		
-			$('body').animate({
+			$('html,body').animate({
 				scrollTop: $('#'+id).offset().top
 			}, 500, 'swing', function() {
 				if(push_state) {
