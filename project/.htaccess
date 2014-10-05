@@ -1,4 +1,4 @@
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteRule ^([A-Za-z0-9_-]+)/?$ index.php?project=$1 [L]
+  RewriteEngine on
+  RewriteRule ^([A-Za-z0-9_-]+)/?$ index.php?project=$1 [L]
 </IfModule>

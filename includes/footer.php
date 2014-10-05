@@ -1,7 +1,7 @@
 
 	</div></article>
 	
-	<footer class="footer"><div class="wrap"><small>&copy; 2010&ndash;<?php echo date('Y'); ?> Tyler Paulson | <span class="nowrap">Hosted by <a href="http://asmallorange.com/?a_aid=tp">A Small Orange</a></span></small></div></footer>
+	<footer class="footer"><div class="wrap"><small>&copy; 2010&ndash;<?php echo date('Y'); ?> Tyler Paulson | <span class="nowrap">Hosted by <a href="https://www.digitalocean.com/?refcode=98ac79fa3ef0">Digital Ocean</a></span></small></div></footer>
 
 	<script>
 		

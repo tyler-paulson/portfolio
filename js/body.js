@@ -1,4 +1,4 @@
-// @codekit-prepend "jquery-2.0.3.min.js", "_plugins.js"
+// @codekit-prepend "jquery-2.1.1.min.js", "_plugins.js"
 
 var push_state = Boolean(function() {
 	var ua = navigator.userAgent;
@@ -13,7 +13,10 @@ var push_state = Boolean(function() {
 $(document).on('ready', function() {
 	
 	$('#resume').on('click', function() {
-		ga('send', 'event', 'Downloads', 'Download', 'Resume');
+		ga('send', 'event', 'Downloads', 'Download', 'Resume', {
+			'hitCallback': function () { document.location = 'https://github.com/tyler-paulson/resume'; }
+		});
+		return false;
 	});
 	
 	if(splash) {
