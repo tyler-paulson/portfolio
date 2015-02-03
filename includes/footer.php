@@ -2,8 +2,8 @@
 	</div></article>
 	
 	<footer class="footer"><div class="wrap"><small>&copy; 2010&ndash;<?php echo date('Y'); ?> Tyler Paulson | <span class="nowrap">Hosted by <a href="https://www.digitalocean.com/?refcode=98ac79fa3ef0">Digital Ocean</a></span></small></div></footer>
-
-	<script>
+	
+	<?php if($_SERVER['SERVER_PORT'] != '8888') { ?><script>
 		
 		var splash = <?php if(isset($splash) && $splash == true) { echo 'true'; } else { echo 'false'; } ?>;
 		
@@ -15,7 +15,7 @@
 		ga('create', 'UA-19764958-1', 'tylerpaulson.com');
 		ga('send', 'pageview');
 		
-	</script>
+	</script><?php } ?>
 
 </body>
 
