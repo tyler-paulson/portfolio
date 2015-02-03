@@ -71,7 +71,16 @@ FileETag None
 # ------------------------------------------------------------------------------
 
 <IfModule mod_rewrite.c>
-
   RewriteRule  ^sitemap$  /sitemap.php  [NC]
+</IfModule>
 
+# ------------------------------------------------------------------------------
+# | Block Referral Spam                                                         |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+  RewriteRule error.php - [L] 
+  RewriteCond %{HTTP_REFERER} semalt.semalt\.com [NC,OR]
+  RewriteCond %{HTTP_REFERER} buttons-for-website\.com [NC]
+  RewriteRule .* - [F,L]
 </IfModule>
