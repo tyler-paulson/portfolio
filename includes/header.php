@@ -9,7 +9,7 @@
 
 	<title><?php if(isset($title)) { echo $title; } else { echo 'Tyler Paulson Design &amp; Development'; } ?></title>
 
-	<meta name="description" content="<?php if(isset($description)) { echo $description; } else { echo 'Brooklyn, NYC based graphic designer and front-end developer. Tech Coordinator at iEARN-USA.'; } ?>">
+	<meta name="description" content="<?php if(isset($description)) { echo $description; } else { echo 'Central Pennsylvania based graphic designer and front-end developer.'; } ?>">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -53,10 +53,10 @@ foreach ($projects as $project) {
 				<noscript>Tyler Paulson Design &amp; Development</noscript>
 				<script>document.write('<span class=\"header--logo--1\">tyler_paulson</span><span class=\"header--logo--3\">(</span><span class=\"header--logo--2\">design</span><span class=\"header--logo--3\">)</span><span class=\"header--logo--3\">:development</span>'); </script>
 			</a>
-			<div class="header--subtitle">Brooklyn, NYC based graphic designer and front-end developer. Tech Coordinator at <a href="http://us.iearn.org">iEARN-USA</a>.</div>
+			<div class="header--subtitle header--subtitle-short">Central Pennsylvania based graphic designer and front-end developer.</div>
 			<div class="header--contact">
-				<noscript><span>+1 858 381 5712</span></noscript>
-				<script>document.write('<a href="tel:+18583815712">+1 858 381 5712</a>');</script>
+				<noscript><span>+1 570 478 5712</span></noscript>
+				<script>document.write('<a href="tel:+15704785712">+1 570 478 5712</a>');</script>
 				-
 				<noscript><span>hello@tylerpaulson.com</span></noscript>
 				<script>document.write('<a href="mailto:hello@tylerpaulson.com">hello@tylerpaulson.com</a>');</script>

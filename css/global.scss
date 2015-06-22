@@ -100,6 +100,12 @@ small {
 	margin-top: 1.333em;
 }
 
+.header--subtitle-short {
+	@media(min-width: 48em) {
+		margin-bottom: 3em;
+	}
+}
+
 .header--contact, .header--links {
 	margin-top: 1.5em;
 }
