@@ -65,8 +65,6 @@ foreach ($projects as $project) {
 			</div>
 			<div class="header--links">
 				<a href="https://github.com/tyler-paulson/resume" id="resume">Resume</a>
-				-
-				<a href="http://witharedhyssop.com">Blog</a>
 			</div>
 		</header>
 
