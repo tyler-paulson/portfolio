@@ -23,6 +23,8 @@
 	<!--[if lt IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
 	<![endif]-->
+	
+	<script>var splash = <?php if(isset($splash) && $splash == true) { echo 'true'; } else { echo 'false'; } ?>;</script>
 
 	<!--[if gt IE 8]>
 		<script async src="/js/body.ck.js"></script>

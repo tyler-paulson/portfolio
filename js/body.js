@@ -1,4 +1,4 @@
-// @codekit-prepend "jquery-2.1.1.min.js", "_plugins.js"
+// @codekit-prepend "../bower_components/jquery/dist/jquery.js", "../bower_components/waypoints/lib/jquery.waypoints.js"
 
 var push_state = Boolean(function() {
 	var ua = navigator.userAgent;
@@ -10,7 +10,7 @@ var push_state = Boolean(function() {
 	return (window.history && 'pushState' in window.history);
 });
 
-$(document).on('ready', function() {
+$(document).ready(function() {
 	
 	$('#resume').on('click', function() {
 		ga('send', 'event', 'Downloads', 'Download', 'Resume', {

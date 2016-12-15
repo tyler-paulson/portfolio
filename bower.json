@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/tyler-paulson/portfolio",
+  "authors": [
+    "Tyler Paulson <me@tylerpaulson.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "waypoints": "^4.0.1"
+  }
+}
