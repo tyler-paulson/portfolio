@@ -1,8 +1,8 @@
 <?php
 	$projects = array(
+		array('title' => 'Mogiv','slug' => 'mogiv'),
 		array('title' => 'iEARN CC Tutorials','slug' => 'tutorials'),
 		array('title' => 'Miles a Minute','slug' => 'milesaminute'),
-		array('title' => 'Mogiv','slug' => 'mogiv'),
 		array('title' => 'The Life','slug' => 'thelife'),
 		array('title' => 'San Diego Half Marathon','slug' => 'sdhm'),
 		array('title' => 'In Deed And Truth','slug' => 'indeedandtruth'),
