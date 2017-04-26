@@ -2,7 +2,6 @@
 	<h2>Mogiv</h2>
 	<p>
 		<span>Mogiv&trade; is a web platform that enables non-profits to accept one-time and recurring donations through Mogiv&#39;s website, an embeddable iframe and SMS. For v2 of their web app, I designed and did the front-end development of a new style guide, marketing section, dashboards and responsive donation giving process.</span>
-		<span class="project--links"><a href="https://www.mogiv.com" title="Mogiv">Visit site</a>.</span>
 	</p>
 	<div class="project--image">
 		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/mogiv-2.png" width="1216" height="800" alt="iPad">
