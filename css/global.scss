@@ -96,8 +96,14 @@ small {
 .header--subtitle {
 	max-width: 17.5em;
 	font-size: 1.125em;
-	line-height: 1.7778;
+	line-height: 1.6667;
 	margin-top: 1.333em;
+	a {
+		color: inherit;
+	}
+	> div {
+		margin-top: .2778em;
+	}
 }
 
 .header--subtitle-short {
@@ -107,7 +113,7 @@ small {
 }
 
 .header--contact, .header--links {
-	margin-top: 1.5em;
+	margin-top: 1.375em;
 }
 
 .header--contact {

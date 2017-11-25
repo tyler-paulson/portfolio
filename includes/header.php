@@ -55,7 +55,10 @@ foreach ($projects as $project) {
 				<noscript>Tyler Paulson Design &amp; Development</noscript>
 				<script>document.write('<span class=\"header--logo--1\">tyler_paulson</span><span class=\"header--logo--3\">(</span><span class=\"header--logo--2\">design</span><span class=\"header--logo--3\">)</span><span class=\"header--logo--3\">:development</span>'); </script>
 			</a>
-			<div class="header--subtitle header--subtitle-short">Central Pennsylvania based graphic designer and front-end developer.</div>
+			<div class="header--subtitle">
+				<div>Central Pennsylvania based graphic designer and front-end developer.</div>
+				<div>Co-founder <a href="https://gridandarrow.com" target="_blank">Grid & Arrow</a>.</div>
+			</div>
 			<div class="header--contact">
 				<noscript><span>+1 570 478 5712</span></noscript>
 				<script>document.write('<a href="tel:+15704785712">+1 570 478 5712</a>');</script>
