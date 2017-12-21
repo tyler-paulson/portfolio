@@ -6,6 +6,6 @@
 		<span class="project--links"><a href="http://tutorials.iearn.org" title="iEARN CC Tutorials">Visit site</a>.</span>
 	</p>
 	<div class="project--image">
-		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/tutorials-1.png" width="1216" height="924" alt="Homepage">
+		<img src="http://img.tylerpaulson.com/portfolio/tutorials-1.png" width="1216" height="924" alt="Homepage">
 	</div>
 </div>

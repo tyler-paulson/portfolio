@@ -5,7 +5,7 @@
 		<span>&ldquo;Son, I Loved You At Your Darkest&rdquo; was the first and only LP released by As Cities Burn with vocalist TJ Bonnette. The album has a cult following and is considered an all-time favorite by many, including me. This piece was my tribute to that record.</span>
 	</p>
 	<div class="project--image">
-		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/silyayd-1.jpg" width="1000" height="500" alt="Close-up of Poster">
-		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/silyayd-2.jpg" width="1000" height="496" alt="Close-ups of Zine" style="margin-top: -12px;">
+		<img src="http://img.tylerpaulson.com/portfolio/silyayd-1.jpg" width="1000" height="500" alt="Close-up of Poster">
+		<img src="http://img.tylerpaulson.com/portfolio/silyayd-2.jpg" width="1000" height="496" alt="Close-ups of Zine" style="margin-top: -12px;">
 	</div>
 </div>

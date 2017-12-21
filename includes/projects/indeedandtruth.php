@@ -6,6 +6,6 @@
 		<span class="project--links"><a href="https://www.indeedandtruth.org" title="In Deed And Truth Ministries">Visit site</a>.</span>
 	</p>
 	<div class="project--image">
-		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/indeedandtruth-1.png" width="1216" height="900" alt="Homepage">
+		<img src="http://img.tylerpaulson.com/portfolio/indeedandtruth-1.png" width="1216" height="900" alt="Homepage">
 	</div>
 </div>

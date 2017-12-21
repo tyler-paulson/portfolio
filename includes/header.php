@@ -13,7 +13,7 @@
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="dns-prefetch" href="//s3.amazonaws.com">
+	<link rel="dns-prefetch" href="http://img.tylerpaulson.com">
 
 	<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
 	<!--[if !IE]><!--><link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"><!-- <![endif]-->
@@ -23,7 +23,7 @@
 	<!--[if lt IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
 	<![endif]-->
-	
+
 	<script>var splash = <?php if(isset($splash) && $splash == true) { echo 'true'; } else { echo 'false'; } ?>;</script>
 
 	<!--[if gt IE 8]>
@@ -43,8 +43,8 @@
 		<nav class="nav" role="navigation"><ul>
 
 <?php
-foreach ($projects as $project) { 	
-	echo '<li><a href="/project/'.$project['slug'].'">'.$project['title'].'</a></li>'; 
+foreach ($projects as $project) {
+	echo '<li><a href="/project/'.$project['slug'].'">'.$project['title'].'</a></li>';
 }
 ?>
 

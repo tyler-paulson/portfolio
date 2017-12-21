@@ -6,6 +6,6 @@
 		<span class="project--links"><a href="http://vimeo.com/63369567" title="The Life App Launch on Vimeo">Watch video</a>.</span> 
 	</p>
 	<div class="project--image">
-		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/thelife-1.png" width="1216" height="918" alt="Dashboard">
+		<img src="http://img.tylerpaulson.com/portfolio/thelife-1.png" width="1216" height="918" alt="Dashboard">
 	</div>
 </div>

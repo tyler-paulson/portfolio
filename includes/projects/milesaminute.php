@@ -6,6 +6,6 @@
 		<span class="project--links"><a href="http://milesaminute.com" title="Miles a Minute">Visit site</a>.</span>
 	</p>
 	<div class="project--image">
-		<img src="//s3.amazonaws.com/tylerpaulson.com/images/portfolio/milesaminute-1.png" width="1216" height="940" alt="Homepage">
+		<img src="http://img.tylerpaulson.com/portfolio/milesaminute-1.png" width="1216" height="940" alt="Homepage">
 	</div>
 </div>
